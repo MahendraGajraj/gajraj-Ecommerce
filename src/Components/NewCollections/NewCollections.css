@@ -1,0 +1,36 @@
+.newcollections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+.newcollections h1{
+    color: #171717;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.newcollections hr{
+    width: 190px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+@media (max-width: 998px) {
+    .collections{
+      display: grid;
+      grid-template-columns: repeat(1, minmax(200px, 500px));
+      grid-gap: 50px;
+      justify-content: space-around;
+      margin-left: 80px;
+    }
+  }
