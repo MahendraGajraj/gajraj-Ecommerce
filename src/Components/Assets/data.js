@@ -13,7 +13,7 @@ let data_product = [
     },
     {
         id:2,
-        name:"Striped Flutter Sleeve Hem Blouse",
+        name:"Wonen Suite designed Combination",
         image:p2_img,
         new_price: 85.00,
         old_price: 120.50,
@@ -28,7 +28,7 @@ let data_product = [
     },
     {
         id:4,
-        name:"Striped Flutter Sleeve Hem Blouse",
+        name:"women salwar Suit combination",
         image:p4_img,
         new_price: 100.00,
         old_price: 150.00,

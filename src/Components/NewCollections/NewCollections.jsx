@@ -10,6 +10,7 @@ const NewCollections = () => {
       <hr />
       <div className='collections'>
         {new_collection.map((item, i) => {
+        
           return(
             <Item
                 key={i}
